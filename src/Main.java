@@ -2,12 +2,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // Входные данные
-        int amount = 140;
+        int amount = 1200;
+        int miles = 20;
 
-        // Логика
-        int bonus = amount / 20 * 1;
+        int bonusMiles = amount / miles;
 
-    System.out.println("Сумма бонусов за покупку:" + bonus);
+        System.out.println("Бонус за приобритенный билет : " + bonusMiles + " miles");
+
     }
 }
